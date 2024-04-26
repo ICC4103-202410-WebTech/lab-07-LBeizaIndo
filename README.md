@@ -54,7 +54,7 @@ User.find_by(name: "John Doe").posts
 2. Find all the tags that belong to a post with the title "Post 1".
 
 ```ruby
-Post.find_by(title: "Publicación 1").tags
+Post.find_by(title: "Post 1").tags
 ```
 
 3. Find all users that have a post with the tag "Tag 1".
