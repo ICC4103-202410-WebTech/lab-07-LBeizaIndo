@@ -9,5 +9,6 @@ class AddTablePosts < ActiveRecord::Migration[7.1]
 
       t.timestamps
     end
+    add_foreign_key :posts, :users
   end
 end
